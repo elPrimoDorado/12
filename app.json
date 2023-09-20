@@ -1,0 +1,21 @@
+{
+  "name": "SoloReenviarBot",
+   "description": "Reenvia mensajes restringidos de canales publicos",
+  "website": "https://github.com/elPrimoDorado/SoloReenviarBotT",
+  "keywords": ["Python", "Railway", "Heroku"],
+  "addons": ["heroku-postgresql:hobby-dev", "scheduler:standard"],
+  "env": {
+    "TOKEN": {
+      "description": "Bot API Token, consiguelo en @botfather"
+    },
+    "ID":{
+      "description": "API HASH ID, consiguelo en https://my.telegram.org/auth?to=apps"
+    },
+    "HASH":{
+      "description": "API HASH, consiguelo en https://my.telegram.org/auth?to=apps"
+    }
+
+   }
+
+
+}
