@@ -8,3 +8,4 @@ De este enlace https://t.me/nombrecanal/1, "nombrecanal" es el nombre del canal,
 <code>nombrecanal 1 5 </code> 
 <code> Esto reenviara los mensajes con id 1,2,3,4,5 del canal en cuestión </code>  
 
+[![Deploy on Railway](https://railway.app/button.svg)](https://railway.app/template/Wo70N3?referralCode=wVFy3o)
