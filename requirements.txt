@@ -1,0 +1,4 @@
+pyrogram==2.0.35
+tgcrypto==1.2.3
+#pickle5
+pykeyboard==0.1.5
