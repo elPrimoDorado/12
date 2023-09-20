@@ -4,7 +4,6 @@ from pyrogram import filters
 from pyrogram.types import InlineKeyboardMarkup,InlineKeyboardButton
 import os
 import time
-from buttons import *
 
 # env
 bot_token = os.environ.get("TOKEN", "") 
