@@ -115,8 +115,8 @@ def procesar_enlaces(client: pyrogram.client.Client, message: pyrogram.types.mes
 
 # app messages
 @app.on_message(filters.command(['start']))
-
-    app.send_message(message.chat.id, f"Bienvenido {message.from_user.mention}\nUsa /reenviar y luego envia el texto, \nEjemplo: nombrecanal 1 5 \nEsto reenviara los mensajes con id 1,2,3,4,5 del canal en cuestión\n Dessplegar el bot__", reply_to_message_id=message.id)
+def start(client: pyrogram.client.Client, message: pyrogram.types.messages_and_media.message.Message):
+    app.send_message(message.chat.id, f"Bienvenido {message.from_user.mention}\nUsa /reenviar y luego envia el texto, \nEjemplo: nombrecanal 1 5 \nEsto reenviara los mensajes con id 1,2,3,4,5 del canal en cuestión\n__", reply_to_message_id=message.id)
      
                       
 # callback
