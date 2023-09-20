@@ -116,7 +116,7 @@ def procesar_enlaces(client: pyrogram.client.Client, message: pyrogram.types.mes
 # app messages
 @app.on_message(filters.command(['start']))
 def start(client: pyrogram.client.Client, message: pyrogram.types.messages_and_media.message.Message):
-    app.send_message(message.chat.id, f"Bienvenido {message.from_user.mention}\nSigue las intrucciones del archivo readme en github antes de desplegar el bot__", reply_to_message_id=message.id)
+    app.send_message(message.chat.id, f"Bienvenido {message.from_user.mention}\nCon el comando /reenviar y luego enviamos el texto nombrecanal 1 5   Esto reenviara los mensajes con id 1,2,3,4,5 del canal en cuestión\n Sigue las intrucciones del archivo readme en github antes de desplegar el bot, https://github.com/elPrimoDorado/SoloReenviarBotT__", reply_to_message_id=message.id)
                 
 # callback
 @app.on_callback_query()
